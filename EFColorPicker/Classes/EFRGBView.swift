@@ -33,7 +33,7 @@ public class EFRGBView: UIView, EFColorView {
     let EFSliderViewMargin: CGFloat = 30.0
     let EFRGBColorComponentsSize: Int = 3
 
-    private let colorSample: UIView = UIView()
+    let colorSample: UIView = UIView()
     var colorComponentViews: [EFColorComponentView] = []
     private var colorComponents: RGB = RGB(1, 1, 1, 1)
 
