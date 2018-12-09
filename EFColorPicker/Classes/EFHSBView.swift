@@ -35,7 +35,7 @@ public class EFHSBView: UIView, EFColorView, UITextFieldDelegate {
 
     private let colorWheel: EFColorWheelView = EFColorWheelView()
     let brightnessView: EFColorComponentView = EFColorComponentView()
-    private let colorSample: UIView = UIView()
+    let colorSample: UIView = UIView()
 
     private var colorComponents: HSB = HSB(1, 1, 1, 1)
     private var layoutConstraints: [NSLayoutConstraint] = []
